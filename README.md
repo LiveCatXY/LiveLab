@@ -5,7 +5,7 @@
 A simple, fast and powerful blog theme built by Astro.
 
 [![GitHub deployments](https://img.shields.io/github/deployments/cworld1/astro-theme-pure/production?style=flat&logo=vercel&label=vercel)](https://astro-pure.js.org/)
-[![NPM Version](https://img.shields.io/npm/v/astro-pure?logo=npm&style=flat)](https://www.npmjs.com/package/astro-pure)
+[![NPM Version](https://img.shields.io/bun/v/astro-pure?logo=bun&style=flat)](https://www.npmjs.com/package/astro-pure)
 [![GitHub Release](https://img.shields.io/github/v/release/cworld1/astro-theme-pure?include_prereleases&style=flat&label=template)](https://github.com/cworld1/astro-theme-pure/releases)
 [![GitHub License](https://img.shields.io/github/license/cworld1/astro-theme-pure?style=flat)](https://github.com/cworld1/astro-theme-pure/blob/main/LICENSE)
 
@@ -54,7 +54,7 @@ Theme includes a lot of components, which can not only be used in the theme, but
 
 ## Package
 
-See [astro-theme-pure](https://www.npmjs.com/package/astro-pure) on npm.
+See [astro-theme-pure](https://www.npmjs.com/package/astro-pure) on bun.
 
 ## Local development
 
