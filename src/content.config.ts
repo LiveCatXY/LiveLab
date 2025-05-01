@@ -31,7 +31,7 @@ const blog = defineCollection({
           color: z.string().optional()
         })
         .optional(),
-      tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+      tags: z.array(z.string()).default([]),
       language: z.string().optional(),
       draft: z.boolean().default(false),
       // Integrations
