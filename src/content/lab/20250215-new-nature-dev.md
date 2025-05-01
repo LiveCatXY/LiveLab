@@ -1,6 +1,6 @@
 ---
 title: 🏝️新自然开发
-pubDate: 2025-02-15
+publishDate: 2025-02-15
 tags: [💻IT]
 level: 2
 top: 1

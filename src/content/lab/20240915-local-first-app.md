@@ -1,6 +1,6 @@
 ---
 title: 本地优先应用软件
-pubDate: 2024-09-14
+publishDate: 2024-09-14
 tags: [💻IT]
 level: 2
 ---

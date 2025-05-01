@@ -1,7 +1,7 @@
 ---
 title: 系统化维护流变信息系统
 subTitle: Think Live, Think Focus
-pubDate: 2025-04-11
+publishDate: 2025-04-11
 tags: [💻IT, 🤔思]
 level: 3
 top: 4

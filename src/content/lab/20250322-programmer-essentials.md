@@ -1,6 +1,6 @@
 ---
 title: 程序员本质
-pubDate: 2025-03-22
+publishDate: 2025-03-22
 tags: [💻IT]
 level: 1
 top: 1

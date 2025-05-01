@@ -1,6 +1,6 @@
 ---
 title: 游戏思考
-pubDate: 2025-03-11
+publishDate: 2025-03-11
 tags: [🎮游戏, 🤔思]
 level: 1
 top: 3

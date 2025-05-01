@@ -1,6 +1,6 @@
 ---
 title: 文化数码
-pubDate: 2024-10-15
+publishDate: 2024-10-15
 tags: [💻IT]
 ---
 

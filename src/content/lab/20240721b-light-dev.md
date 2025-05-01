@@ -1,6 +1,6 @@
 ---
 title: 轻开发
-pubDate: 2024-07-21
+publishDate: 2024-07-21
 tags: [💻IT]
 level: 1
 ---

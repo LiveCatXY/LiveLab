@@ -1,6 +1,6 @@
 ---
 title: 广义的语言
-pubDate: 2024-08-25
+publishDate: 2024-08-25
 tags: [💡思维]
 level: 2
 ---

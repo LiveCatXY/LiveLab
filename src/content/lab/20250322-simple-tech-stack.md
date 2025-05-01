@@ -1,6 +1,6 @@
 ---
 title: 🥚简单清爽实用技术栈
-pubDate: 2025-03-22
+publishDate: 2025-03-22
 tags: [💻IT]
 level: 2
 top: 1

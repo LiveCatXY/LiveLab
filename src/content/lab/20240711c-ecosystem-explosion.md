@@ -1,6 +1,6 @@
 ---
 title: 生态爆炸💥
-pubDate: 2024-07-11
+publishDate: 2024-07-11
 tags: [💻IT]
 ---
 

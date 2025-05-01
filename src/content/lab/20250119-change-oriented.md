@@ -1,6 +1,6 @@
 ---
 title: 🌊面向变化编程
-pubDate: 2025-01-19
+publishDate: 2025-01-19
 updatedDate: 2025-03-09
 tags: [💻IT]
 level: 2

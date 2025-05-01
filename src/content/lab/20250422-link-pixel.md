@@ -1,7 +1,7 @@
 ---
 title: 缘素LinkPixel
 subTitle: 关系与像素，我专业的本质基础元素
-pubDate: 2025-04-22
+publishDate: 2025-04-22
 tags: [💻IT]
 level: 2
 top: 2

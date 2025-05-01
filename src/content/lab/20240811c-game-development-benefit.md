@@ -1,6 +1,6 @@
 ---
 title: 游戏开发长期收益
-pubDate: 2024-08-11
+publishDate: 2024-08-11
 updatedDate: 2025-03-23
 tags: [🎮游戏]
 level: 1

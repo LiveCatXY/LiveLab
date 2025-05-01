@@ -1,6 +1,6 @@
 ---
 title: Antfu 开源之路的启示
-pubDate: 2024-07-12
+publishDate: 2024-07-12
 tags: [💡思维]
 level: 1
 ---

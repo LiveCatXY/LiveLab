@@ -1,6 +1,6 @@
 ---
 title: 🖼️图言极客
-pubDate: 2024-10-30
+publishDate: 2024-10-30
 tags: [💻IT, 🤔思]
 level: 2
 top: 1

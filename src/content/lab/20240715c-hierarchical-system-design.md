@@ -1,6 +1,6 @@
 ---
 title: 分层系统设计
-pubDate: 2024-07-15
+publishDate: 2024-07-15
 tags: [💻IT]
 level: 2
 ---

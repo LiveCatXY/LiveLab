@@ -1,7 +1,7 @@
 ---
 title: 🏝新自然数码公社
 subTitle: 研发和分享生动灵性的软件
-pubDate: 2024-11-18
+publishDate: 2024-11-18
 updatedDate: 2025-02-22
 tags: [💻IT]
 level: 3

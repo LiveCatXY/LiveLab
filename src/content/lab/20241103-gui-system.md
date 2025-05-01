@@ -1,6 +1,6 @@
 ---
 title: 📱GUI体系概览
-pubDate: 2024-11-03
+publishDate: 2024-11-03
 updatedDate: 2025-03-23
 tags: [💻IT]
 level: 1

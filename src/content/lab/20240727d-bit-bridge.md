@@ -1,6 +1,6 @@
 ---
 title: 比特之桥
-pubDate: 2024-07-27
+publishDate: 2024-07-27
 tags: [💻IT]
 level: 1
 ---

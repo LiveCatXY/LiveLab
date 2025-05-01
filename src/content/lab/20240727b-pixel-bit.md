@@ -1,6 +1,6 @@
 ---
 title: 像素比特 Pixel Bit
-pubDate: 2024-07-27
+publishDate: 2024-07-27
 tags: [💻IT]
 ---
 

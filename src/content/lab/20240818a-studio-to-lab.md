@@ -1,6 +1,6 @@
 ---
 title: 工作室改名研究室
-pubDate: 2024-08-18
+publishDate: 2024-08-18
 updatedDate: 2024-08-25
 tags: [💞管理]
 ---

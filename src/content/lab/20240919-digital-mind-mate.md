@@ -1,6 +1,6 @@
 ---
 title: 数码心智伴侣，保持你的灵性
-pubDate: 2024-09-19
+publishDate: 2024-09-19
 updatedDate: 2024-09-27
 tags: [🐈逍遥猫]
 level: 1

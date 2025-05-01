@@ -1,6 +1,6 @@
 ---
 title: 体验思考
-pubDate: 2025-04-11
+publishDate: 2025-04-11
 tags: [💓体验, 🤔思]
 level: 1
 top: 3

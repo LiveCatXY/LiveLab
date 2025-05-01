@@ -1,6 +1,6 @@
 ---
 title: 个人电脑发展历史
-pubDate: 2024-09-24
+publishDate: 2024-09-24
 tags: [💻IT]
 level: 1
 ---

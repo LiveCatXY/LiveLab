@@ -1,6 +1,6 @@
 ---
 title: 图言空语
-pubDate: 2024-08-10
+publishDate: 2024-08-10
 updatedDate: 2024-08-13
 tags: [💡思维]
 level: 2

@@ -1,6 +1,6 @@
 ---
 title: 码农还是码工
-pubDate: 2024-08-11
+publishDate: 2024-08-11
 tags: [💻IT]
 ---
 

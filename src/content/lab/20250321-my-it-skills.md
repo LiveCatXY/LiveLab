@@ -1,6 +1,6 @@
 ---
 title: ☘️我的IT开发技能
-pubDate: 2025-03-21
+publishDate: 2025-03-21
 originDate: 2021-11-06
 tags: [💻IT, 📺老想法]
 level: 2

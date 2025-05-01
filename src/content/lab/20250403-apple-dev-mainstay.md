@@ -1,6 +1,6 @@
 ---
 title: Apple开发为主
-pubDate: 2025-03-31
+publishDate: 2025-03-31
 tags: [💻IT]
 level: 1
 top: 4

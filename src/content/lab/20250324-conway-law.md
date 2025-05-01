@@ -1,6 +1,6 @@
 ---
 title: 康威定律的威力
-pubDate: 2025-03-24
+publishDate: 2025-03-24
 tags: [💻IT]
 level: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: 软件如何适用
-pubDate: 2024-07-11
+publishDate: 2024-07-11
 tags: [💻IT]
 level: 1
 ---

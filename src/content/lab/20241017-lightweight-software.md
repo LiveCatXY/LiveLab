@@ -1,6 +1,6 @@
 ---
 title: 轻量化软件
-pubDate: 2024-10-17
+publishDate: 2024-10-17
 tags: [💻IT]
 level: 1
 ---

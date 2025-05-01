@@ -1,7 +1,7 @@
 ---
 title: 🛤轨道编程
 subTitle: 更精准明确地用编程控制
-pubDate: 2025-03-30
+publishDate: 2025-03-30
 tags: [💻IT]
 level: 3
 top: 3

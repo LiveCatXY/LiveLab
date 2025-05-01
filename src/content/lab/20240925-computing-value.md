@@ -1,6 +1,6 @@
 ---
 title: 计算的价值
-pubDate: 2024-09-25
+publishDate: 2024-09-25
 tags: [💻IT]
 level: 1
 ---

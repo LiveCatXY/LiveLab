@@ -1,6 +1,6 @@
 ---
 title: 技术的本质
-pubDate: 2024-08-16
+publishDate: 2024-08-16
 tags: [🔭科技]
 level: 1
 ---

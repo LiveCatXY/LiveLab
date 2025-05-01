@@ -1,6 +1,6 @@
 ---
 title: 架构
-pubDate: 2024-10-20
+publishDate: 2024-10-20
 tags: [💻IT]
 level: 1
 ---

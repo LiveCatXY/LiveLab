@@ -1,7 +1,7 @@
 ---
 title: 🐣生命编程
 subTitle: 更灵活动态地用编程沟通
-pubDate: 2025-03-25
+publishDate: 2025-03-25
 tags: [💻IT]
 level: 3
 top: 3

@@ -1,6 +1,6 @@
 ---
 title: 精简 UI
-pubDate: 2024-09-26
+publishDate: 2024-09-26
 tags: [💻IT]
 level: 1
 ---

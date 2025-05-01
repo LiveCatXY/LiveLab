@@ -1,6 +1,6 @@
 ---
 title: 图形学的天花板
-pubDate: 2024-08-20
+publishDate: 2024-08-20
 updatedDate: 2025-04-11
 tags: [💻IT]
 level: 1

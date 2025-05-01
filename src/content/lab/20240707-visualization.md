@@ -1,6 +1,6 @@
 ---
 title: 可视化
-pubDate: 2024-07-07
+publishDate: 2024-07-07
 tags: [💡思维]
 level: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: 形神之别
-pubDate: 2025-03-10
+publishDate: 2025-03-10
 tags: [💻IT]
 level: 2
 top: 1

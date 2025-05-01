@@ -1,6 +1,6 @@
 ---
 title: 活动页面 Action Page
-pubDate: 2024-09-20
+publishDate: 2024-09-20
 tags: [💻IT]
 level: 1
 ---

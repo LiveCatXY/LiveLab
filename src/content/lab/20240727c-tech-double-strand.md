@@ -1,6 +1,6 @@
 ---
 title: 技能双链
-pubDate: 2024-07-27
+publishDate: 2024-07-27
 tags: [🔭科技]
 level: 2
 ---
