@@ -53,18 +53,4 @@ const docs = defineCollection({
     })
 })
 
-// Define lab collection
-const lab = defineCollection({
-  loader: glob({ base: './src/content/lab', pattern: '**/*.{md,mdx}' }),
-  schema: () =>
-    z.object({
-      title: z.string().max(60),
-      description: z.string().max(160).optional(),
-      publishDate: z.coerce.date().optional(),
-      updatedDate: z.coerce.date().optional(),
-      tags: z.array(z.string()).default([]),
-      draft: z.boolean().default(false)
-    })
-})
-
-export const collections = { blog, docs, lab }
+export const collections = { blog, docs }
