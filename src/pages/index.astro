@@ -21,7 +21,7 @@ const allPosts = await getBlogCollection('posts')
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 ---
 
-<PageLayout meta={{ title: 'Home' }} highlightColor='#659EB9'>
+<PageLayout meta={{ title: '主页' }} highlightColor='#659EB9'>
   <main class='flex w-full flex-col items-center'>
     <section class='animate mb-10 flex flex-col items-center gap-y-7' id='content-header'>
       <Image
@@ -32,7 +32,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       />
 
       <div class='flex flex-col items-center gap-y-4'>
-        <h1 class='text-3xl font-bold'>{config.author} Lab</h1>
+        <h1 class='text-3xl font-bold'>猫工社 by {config.author}</h1>
       </div>
     </section>
 
