@@ -7,7 +7,7 @@ import PostLayout from '@/layouts/BlogPost.astro'
 export const prerender = true
 
 export async function getStaticPaths() {
-  const posts = sortMDByDate(await getBlogCollection())
+  const posts = sortMDByDate(await getBlogCollection('posts'))
   return posts.map((post) => ({
     params: { id: post.id },
     props: { post, posts }
@@ -15,8 +15,8 @@ export async function getStaticPaths() {
 }
 
 type Props = {
-  post: CollectionEntry<'blog'>
-  posts: CollectionEntry<'blog'>[]
+  post: CollectionEntry<'posts'>
+  posts: CollectionEntry<'posts'>[]
 }
 
 const { post, posts } = Astro.props

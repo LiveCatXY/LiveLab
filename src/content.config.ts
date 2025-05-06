@@ -8,9 +8,9 @@ function removeDupsAndLowerCase(array: string[]) {
   return Array.from(distinctItems)
 }
 
-const blog = defineCollection({
-  // Load Markdown and MDX files in the `src/content/blog/` directory.
-  loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
+const posts = defineCollection({
+  // Load Markdown and MDX files in the `src/content/posts/` directory.
+  loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx}' }),
   // Required
   schema: ({ image }) =>
     z.object({
@@ -53,4 +53,4 @@ const docs = defineCollection({
     })
 })
 
-export const collections = { blog, docs }
+export const collections = { posts, docs }
