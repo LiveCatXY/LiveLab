@@ -2,7 +2,7 @@
 title: 📈可视化：我的技术栈锚点
 publishDate: 2025-03-09
 originDate: 2021-10-28
-tags: [💻IT, 📺老想法]
+tags: [💻IT]
 level: 2
 top: 2
 ---
