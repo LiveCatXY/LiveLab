@@ -11,10 +11,9 @@ level: 1
 
 康威定律（Conway's Law）是软件开发中的一个经典观察，由计算机科学家梅尔文·康威（Melvin Conway）在1967年提出。其核心观点是：
 
-**“系统的设计架构会反映其生产组织的沟通结构。”**
-（*"Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure."*）
+系统的设计架构会反映其生产组织的沟通结构。（Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure.）
 
-### 关键解读：
+## 关键解读：
 
 1. **组织与架构的镜像性**
    开发团队的内部沟通方式会直接影响软件系统的架构。例如：
@@ -28,17 +27,17 @@ level: 1
 3. **逆向应用**
    通过调整团队结构（如拆分小组、改变协作流程）可以主动引导系统架构的演变。
 
-### 经典案例：
+## 经典案例：
 
 - 亚马逊的“两个比萨团队”原则（小团队独立负责服务）推动了AWS的微服务化。
 - 开源社区分散的贡献模式常导致模块化程度更高的软件（如Linux内核）。
 
-### 扩展理解：
+## 扩展理解：
 
 - **逆向康威定律**：现代DevOps实践中，企业会先设计目标架构，再重组团队与之匹配。
 - **局限性**：工具链（如低代码平台）或强规范可能减弱这种影响，但底层逻辑依然存在。
 
-### 管理启示：
+## 管理启示：
 
 - 架构改革需伴随组织调整。
 - 分布式团队需要更明确的接口契约。
