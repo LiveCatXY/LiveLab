@@ -6,7 +6,7 @@ level: 2
 top: 1
 ---
 
-这几天在继续思考[《以数据为中心》](/lab/20250125-data-centric)，也参考了别人反思 DDD 的文章[《拥抱毒瘤 DDD！》](https://mp.weixin.qq.com/s/AhklSNwD1UzHv0hCGNMcVg)。
+这几天在继续思考[《以数据为中心》](/posts/20250125-data-centric)，也参考了别人反思 DDD 的文章[《拥抱毒瘤 DDD！》](https://mp.weixin.qq.com/s/AhklSNwD1UzHv0hCGNMcVg)。
 
 发现一个业界尤其是业务开发可能比较严重的问题，就是喜欢从上到下，以抽象的需求话语驱动具体的技术开发，而不是从实际出发，从下到上。也就是想得太多，观察和实践太少，并喜欢用臆想指导实践。
 
