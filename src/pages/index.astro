@@ -1,11 +1,9 @@
 ---
 import { Image } from 'astro:assets'
 
-import { Quote } from 'astro-pure/advanced'
 import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
-import { Button, Card, Icon, Label } from 'astro-pure/user'
+import { Button } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
-import ProjectCard from '@/components/home/ProjectCard.astro'
 import Section from '@/components/home/Section.astro'
 import SkillLayout from '@/components/home/SkillLayout.astro'
 import PostPreview from '@/components/PostPreview.astro'
@@ -18,10 +16,11 @@ const backend = ['NodeJS', 'C++']
 
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection('posts')
+const topPosts = sortMDByDate(allPosts).filter((p) => p.data.top > 3)
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 ---
 
-<PageLayout meta={{ title: '主页' }} highlightColor='#659EB9'>
+<PageLayout meta={{ title: 'Andy Lu' }} highlightColor='#659EB9'>
   <main class='flex w-full flex-col items-center'>
     <section class='animate mb-10 flex flex-col items-center gap-y-7' id='content-header'>
       <Image
@@ -32,7 +31,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       />
 
       <div class='flex flex-col items-center gap-y-4'>
-        <h1 class='text-3xl font-bold'>{config.title} by {config.author}</h1>
+        <h1 class='text-3xl font-bold'>{config.author}</h1>
       </div>
     </section>
 
@@ -48,6 +47,18 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
         <p class='text-muted-foreground'>全栈开发者，用户体验设计师与工程师</p>
         <Button title='更多关于我' class='w-fit self-end' href='/about' style='ahead' />
       </Section>
+      {
+        topPosts.length > 0 && (
+          <Section title='置顶帖子'>
+            <ul class='flex flex-col gap-y-1.5 sm:gap-y-2'>
+              {topPosts.map((p) => (
+                <PostPreview post={p} />
+              ))}
+            </ul>
+            <Button title='更多帖子' class='w-fit self-end' href='/posts' style='ahead' />
+          </Section>
+        )
+      }
       {
         allPostsByDate.length > 0 && (
           <Section title='帖子'>

@@ -115,7 +115,7 @@ const postDate = data.updatedDate ?? data.publishDate
   </a>
   <!-- tags -->
   {
-    detailed && data.tags && (
+    data.tags && (
       <ul class='tag-list mt-1 flex flex-wrap gap-2'>
         {data.tags.map((tag: string) => (
           <li>
@@ -125,6 +125,16 @@ const postDate = data.updatedDate ?? data.publishDate
       </ul>
     )
   }
+  <div class='mt-1'>
+    <!-- level -->
+    {
+      data.level && (
+        <Button title={`Level: ${data.level}`} href={`/levels/${data.level}`} style='pill' />
+      )
+    }
+    <!-- top -->
+    {data.top && <Button title={`Top: ${data.top}`} href={`/tops/${data.top}`} style='pill' />}
+  </div>
 </li>
 
 <style>

@@ -32,6 +32,8 @@ const posts = defineCollection({
         })
         .optional(),
       tags: z.array(z.string()).default([]),
+      level: z.number().default(0),
+      top: z.number().default(0),
       language: z.string().optional(),
       draft: z.boolean().default(false),
       // Integrations
@@ -49,6 +51,8 @@ const docs = defineCollection({
       publishDate: z.coerce.date().optional(),
       updatedDate: z.coerce.date().optional(),
       tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+      level: z.number().default(0),
+      top: z.number().default(0),
       draft: z.boolean().default(false)
     })
 })
