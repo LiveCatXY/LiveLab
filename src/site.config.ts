@@ -3,7 +3,7 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: '【🧑‍💻猫工社🤖】',
+  title: '🧑‍💻几何科工社🤖',
   /** Will be used in index page & copyright declaration */
   author: '😼Andy Lu',
   /** Description metadata for your website. Can be used in page metadata. */
@@ -119,7 +119,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: true,
+    enable: false,
     // Server service link
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Refer https://waline.js.org/en/guide/features/emoji.html

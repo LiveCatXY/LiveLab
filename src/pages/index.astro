@@ -35,13 +35,12 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       </div>
     </section>
 
-    <Section title='技能'>
-      <SkillLayout title='编程语言' skills={languages} />
-      <SkillLayout title='前端' skills={frontend} />
-      <SkillLayout title='后端' skills={backend} />
-    </Section>
-
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
+      <Section title='技能'>
+        <SkillLayout title='编程语言' skills={languages} />
+        <SkillLayout title='前端' skills={frontend} />
+        <SkillLayout title='后端' skills={backend} />
+      </Section>
       <Section title='关于'>
         <p class='text-muted-foreground'>开发者 / 设计师</p>
         <p class='text-muted-foreground'>全栈开发者，用户体验设计师与工程师</p>
