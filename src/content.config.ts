@@ -1,13 +1,6 @@
 import { defineCollection, z } from 'astro:content'
 import { glob } from 'astro/loaders'
 
-function removeDupsAndLowerCase(array: string[]) {
-  if (!array.length) return array
-  const lowercaseItems = array.map((str) => str.toLowerCase())
-  const distinctItems = new Set(lowercaseItems)
-  return Array.from(distinctItems)
-}
-
 const posts = defineCollection({
   // Load Markdown and MDX files in the `src/content/posts/` directory.
   loader: glob({ base: './src/content/posts', pattern: '**/*.{md,mdx}' }),
@@ -41,20 +34,4 @@ const posts = defineCollection({
     })
 })
 
-// Define docs collection
-const docs = defineCollection({
-  loader: glob({ base: './src/content/docs', pattern: '**/*.{md,mdx}' }),
-  schema: () =>
-    z.object({
-      title: z.string().max(60),
-      description: z.string().max(160),
-      publishDate: z.coerce.date().optional(),
-      updatedDate: z.coerce.date().optional(),
-      tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
-      level: z.number().default(0),
-      top: z.number().default(0),
-      draft: z.boolean().default(false)
-    })
-})
-
-export const collections = { posts, docs }
+export const collections = { posts }
