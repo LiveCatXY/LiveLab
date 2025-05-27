@@ -14,7 +14,7 @@ top: 2
 2. [💖灵性数码体验研究室](/posts/20240727a-pink-lab)。
 3. [🧚‍♀️小生灵研究室](/posts/20240825b-little-life-lab)。
 4. [🌈桑田工作室](/posts/20241015b-mulberry-field)。
-5. [🚀新自然科学公社](https://blog.lushisang.com/xyy/20250202)。
+5. [🚀新自然科学公社](https://home.lushisang.com/xyy/20250202)。
 
 充分利用信息技术的连接功能等，和清晰有深度的观察、思考、实践、反馈之知行循环，促进人类、自然与科技的安全、平衡与和谐，实现生命力的长久保持。
 
