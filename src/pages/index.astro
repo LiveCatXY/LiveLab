@@ -2,12 +2,13 @@
 import { Image } from 'astro:assets'
 
 import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
-import { Button } from 'astro-pure/user'
+import { Button, Icon, Label } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/home/Section.astro'
 import SkillLayout from '@/components/home/SkillLayout.astro'
 import PostPreview from '@/components/PostPreview.astro'
 import avatar from '@/assets/avatar.png'
+import config from '@/site-config'
 
 const languages = ['Rust', 'JavaScript/TypeScript', 'Html', 'CSS', 'Shell']
 const frontend = ['Web3D', 'Vue', 'React', 'Astro']
@@ -30,6 +31,17 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
         class='h-28 w-auto rounded-full border p-1'
         loading='eager'
       />
+      <div class='flex flex-col items-center gap-y-4'>
+        <h1 class='text-3xl font-bold'>{config.author} 的 IT 实验室🧪</h1>
+        <div class='flex flex-wrap justify-center gap-x-7 gap-y-3'>
+          <Label title='China'>
+            <Icon name='location' class='size-5' slot='icon' />
+          </Label>
+          <Label title='站点 Git 库' as='a' href='https://github.com/andyluss/lab' target='_blank'>
+            <Icon name='github' class='size-5' slot='icon' />
+          </Label>
+        </div>
+      </div>
     </section>
 
     <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
