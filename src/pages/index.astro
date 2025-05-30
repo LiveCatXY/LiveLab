@@ -13,9 +13,11 @@ const languages = ['Rust', 'JavaScript/TypeScript', 'Html', 'CSS', 'Shell']
 const frontend = ['Web3D', 'Vue', 'React', 'Astro']
 const backend = ['NodeJS', 'C++']
 
-const MAX_POSTS = 10
+const MAX_POSTS = 5
 const allPosts = await getBlogCollection('posts')
-const topPosts = sortMDByDate(allPosts).filter((p) => p.data.top > 3)
+const topPosts = sortMDByDate(allPosts)
+  .filter((p) => p.data.top >= 3)
+  .slice(0, MAX_POSTS)
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
 ---
 
@@ -45,7 +47,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
       }
       {
         allPostsByDate.length > 0 && (
-          <Section title='帖子'>
+          <Section title='最新帖子'>
             <ul class='flex flex-col gap-y-1.5 sm:gap-y-2'>
               {allPostsByDate.map((p) => (
                 <PostPreview post={p} />

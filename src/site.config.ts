@@ -47,8 +47,8 @@ export const theme: ThemeUserConfig = {
   /** Configure the header of your site. */
   header: {
     menu: [
-      { title: 'Posts', link: '/posts' },
-      { title: 'About', link: '/about' }
+      { title: '帖子', link: '/posts' },
+      { title: '关于', link: '/about' }
     ]
   },
 
@@ -57,7 +57,7 @@ export const theme: ThemeUserConfig = {
     // Registration information for ICP (optional)
     registration: {},
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
-    credits: false,
+    credits: true,
     /** Optional details about the social media accounts for this site. */
     social: { github: 'https://github.com/andyluss/lab' }
   },
