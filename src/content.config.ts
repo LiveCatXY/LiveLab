@@ -2,7 +2,6 @@ import { defineCollection, z } from 'astro:content'
 import { glob } from 'astro/loaders'
 
 const posts = defineCollection({
-  // Load Markdown and MDX files in the `src/content/posts/` directory.
   loader: glob({
     base: './content/posts',
     pattern: '**/[^_]*.{md,mdx}'
