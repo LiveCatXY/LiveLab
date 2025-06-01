@@ -30,8 +30,8 @@ interface Props {
 const { page, uniqueTags, collectionsCount } = Astro.props
 
 const meta = {
-  description: 'Some posts or archieves',
-  title: 'Posts'
+  description: '一些帖子',
+  title: '帖子'
 }
 
 const paginationProps = {
@@ -58,7 +58,7 @@ const paginationProps = {
     </div>
     {
       page.data.length === 0 ? (
-        <p>还没有帖子。</p>
+        <p>没有帖子。</p>
       ) : (
         <div class='grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8'>
           <section aria-label='Posts list' class='animate' id='content'>
