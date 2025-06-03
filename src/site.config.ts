@@ -54,8 +54,6 @@ export const theme: ThemeUserConfig = {
 
   /** Configure the footer of your site. */
   footer: {
-    // Registration information for ICP (optional)
-    registration: {},
     /** Enable displaying a “Astro & Pure theme powered” link in your site’s footer. */
     credits: true,
     /** Optional details about the social media accounts for this site. */
