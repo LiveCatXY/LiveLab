@@ -40,7 +40,7 @@ top: 3
 3. 功能往往是产品设计考虑的，工程师只是实现。
 4. 而性能很多时候是技术问题，一般利用第三方中间件来实现高性能。
 
-![Work Right Fast](./images/work-right-fast.jpg)
+![Work Right Fast](/images/work-right-fast.jpg)
 
 ## 一些高层编程（主要是函数式、并发）思考
 

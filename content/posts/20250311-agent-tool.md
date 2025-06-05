@@ -9,4 +9,4 @@ level: 1
 
 我画了张简单的示意图：
 
-![Agent](./images/agent.excalidraw.svg)
+![Agent](/images/agent.excalidraw.svg)
