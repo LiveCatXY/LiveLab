@@ -1,5 +1,5 @@
 ---
-title: 🧈轻量程序
+title: 🧈黄色轻量程序
 publishDate: 2025-05-30
 tags: [💻IT]
 level: 1
