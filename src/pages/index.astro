@@ -1,12 +1,13 @@
 ---
 import { Image } from 'astro:assets'
 
-import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
+import { getBlogCollection } from 'astro-pure/server'
 import { Button, Icon, Label } from 'astro-pure/user'
 import PageLayout from '@/layouts/BaseLayout.astro'
 import Section from '@/components/home/Section.astro'
 import SkillLayout from '@/components/home/SkillLayout.astro'
 import PostPreview from '@/components/PostPreview.astro'
+import { sortPostsByPublishDate, sortPostsByTop } from '@/utils/post-utils'
 import avatar from '@/assets/avatar.png'
 import config from '@/site-config'
 
@@ -16,10 +17,10 @@ const backend = ['NodeJS', 'C++']
 
 const MAX_POSTS = 5
 const allPosts = await getBlogCollection('posts')
-const topPosts = sortMDByDate(allPosts)
+const topPosts = sortPostsByTop(allPosts)
   .filter((p) => p.data.top >= 3)
   .slice(0, MAX_POSTS)
-const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
+const allPostsByDate = sortPostsByPublishDate(allPosts).slice(0, MAX_POSTS)
 ---
 
 <PageLayout meta={{ title: '👏欢迎光临' }} highlightColor='#659EB9'>
@@ -53,7 +54,7 @@ const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS)
                 <PostPreview post={p} />
               ))}
             </ul>
-            <Button title='更多帖子' class='w-fit self-end' href='/posts' style='ahead' />
+            <Button title='更多帖子' class='w-fit self-end' href='/tops' style='ahead' />
           </Section>
         )
       }
