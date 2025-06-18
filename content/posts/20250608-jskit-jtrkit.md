@@ -2,8 +2,7 @@
 title: JSKit 和 JTRKit
 publishDate: 2025-06-08
 tags: [💻IT]
-level: 3
-top: 4
+level: 1
 ---
 
 经过这么多年的工作和研究，我觉得 JS 虽然一开始简陋，但是现在已经足够强大了，性能也不错了，配合 TS，可以很好地胜任大多数应用型项目了。
