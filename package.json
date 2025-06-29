@@ -21,11 +21,11 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/rss": "^4.0.12",
-    "@astrojs/vercel": "^8.1.5",
+    "@astrojs/vercel": "8.2.0",
     "@playform/compress": "^0.2.0",
     "@unocss/reset": "^66.2.0",
     "@waline/client": "^3.5.7",
-    "astro": "^5.9.3",
+    "astro": "5.10.1",
     "astro-pure": "^1.2.7",
     "katex": "^0.16.22",
     "rehype-katex": "^7.0.1",

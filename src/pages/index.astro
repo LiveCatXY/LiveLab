@@ -59,7 +59,12 @@ const allPostsByDate = sortPostsByPublishDate(allPosts).slice(0, MAX_POSTS)
                 <PostPreview post={p} />
               ))}
             </ul>
-            <Button title='更多帖子' class='w-fit self-end' href='/tops' style='ahead' />
+            <Button
+              title='按置顶级别浏览更多帖子'
+              class='w-fit self-end'
+              href='/tops'
+              style='ahead'
+            />
           </Section>
         )
       }
@@ -71,7 +76,12 @@ const allPostsByDate = sortPostsByPublishDate(allPosts).slice(0, MAX_POSTS)
                 <PostPreview post={p} />
               ))}
             </ul>
-            <Button title='更多帖子' class='w-fit self-end' href='/posts' style='ahead' />
+            <Button
+              title='按时间新旧浏览更多帖子'
+              class='w-fit self-end'
+              href='/posts'
+              style='ahead'
+            />
           </Section>
         )
       }
