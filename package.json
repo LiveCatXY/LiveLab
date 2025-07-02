@@ -3,7 +3,7 @@
   "type": "module",
   "version": "4.0.2-beta",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --port 4322",
     "dev:check": "astro check --watch & astro dev",
     "build": "astro-pure check && astro check && astro build",
     "preview": "astro preview",

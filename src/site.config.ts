@@ -61,7 +61,7 @@ export const theme: ThemeUserConfig = {
   },
 
   content: {
-    externalLinksContent: ' ↗',
+    externalLinksContent: '↗',
     /** Blog page size for pagination (optional) */
     blogPageSize: 10,
     externalLinkArrow: true, // show external link arrow
