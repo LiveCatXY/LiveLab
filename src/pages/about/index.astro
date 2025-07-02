@@ -1,18 +1,14 @@
 ---
 import { Button, Spoiler } from 'astro-pure/user'
 import PageLayout from '@/layouts/CommonPage.astro'
-
-const headings = [{ depth: 2, slug: 'hobbies', text: 'Hobbies' }]
 ---
 
-<PageLayout title='关于' info='/about' {headings}>
-  <p>开发者 / 设计师</p>
+<PageLayout title='关于' info='/about'>
+  <p>程序员、开发者、设计师</p>
   <p>喜欢编写能看得见效果的代码🧡</p>
   <p>我的格言: 踏踏实实做事，潇潇洒洒做人。<Spoiler>做人呢，最重要的就是开心</Spoiler></p>
-  <Button title='赞助我' class='w-fit' href='/projects#sponsorship' style='ahead' />
 
-  {/* general-talk */}
-  <h2 id='hobbies'>爱好</h2>
+  <h3>爱好</h3>
   <ul>
     <li>到处乱走乱看。</li>
     <li>看书思考写作。</li>
