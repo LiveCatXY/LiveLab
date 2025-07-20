@@ -2,7 +2,7 @@
 title: 图言空语
 publishDate: 2024-08-10
 updatedDate: 2024-08-13
-tags: [💡思维]
+tags: [📈图形]
 level: 2
 ---
 
