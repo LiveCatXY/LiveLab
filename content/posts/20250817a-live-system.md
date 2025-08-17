@@ -41,6 +41,8 @@ MVC 和 ECS 都是以数据为核心关注点。
 
 ## 五、生机系统
 
+如果传统读写数据模式叫图书馆模式的话，数据流驱动模式可以叫生态圈模式。因为数据是活的，数据的关联者也是活的，所以可以叫 LiveSystem。
+
 有个项目叫[Darklang](https://darklang.com/)，通过用代码系统化地统一软件生命周期所有的活动，让开发更轻松。
 
-我也可以模仿它，构建一个叫 LiveSystem 的系统，或者叫 DataDUX（Direct、Universal、Extendable），让软件开发以充满升级的流变关联数据为核心关注点，更直接、更统一、更可扩展。
+我也可以模仿它，让软件开发以充满生机的流变关联数据为核心关注点，更直接、更统一、更可扩展。所以也可以叫 DataDUX（Direct、Universal、Extendable）。
