@@ -45,4 +45,4 @@ MVC 和 ECS 都是以数据为核心关注点。
 
 有个项目叫[Darklang](https://darklang.com/)，通过用代码系统化地统一软件生命周期所有的活动，让开发更轻松。
 
-我也可以模仿它，让软件开发以充满生机的流变关联数据为核心关注点，更直接、更统一、更可扩展。所以也可以叫 DataDUX（Direct、Universal、Extendable）。
+我也可以模仿它，让软件开发以充满生机的流变关联数据为核心关注点，更直接、更通用、更可扩展。所以也可以叫 DataDUX（Direct、Universal、Extendable）。
