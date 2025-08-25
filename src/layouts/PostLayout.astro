@@ -7,7 +7,7 @@ import 'katex/dist/katex.min.css'
 
 import { Comment, MediumZoom } from 'astro-pure/advanced'
 import { ArticleBottom, Hero, TOC } from 'astro-pure/components/pages'
-import PageLayout from '@/layouts/ContentLayout.astro'
+import ContentLayout from '@/layouts/ContentLayout.astro'
 import { integ } from '@/site-config'
 
 interface Props {
@@ -45,7 +45,7 @@ const articleDate = updatedDate?.toISOString() ?? publishDate.toISOString()
 const primaryColor = data.heroImage?.color ?? 'hsl(var(--primary) / var(--un-text-opacity))'
 ---
 
-<PageLayout
+<ContentLayout
   meta={{ articleDate, description, ogImage: socialImage, title }}
   highlightColor={primaryColor}
   back='/posts'
@@ -66,6 +66,6 @@ const primaryColor = data.heroImage?.color ?? 'hsl(var(--primary) / var(--un-tex
   </Fragment>
 
   <slot name='bottom-sidebar' slot='bottom-sidebar' />
-</PageLayout>
+</ContentLayout>
 
 {integ.mediumZoom.enable && <MediumZoom />}

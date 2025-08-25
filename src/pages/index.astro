@@ -23,7 +23,7 @@ const topPosts = sortPostsByTop(allPosts)
 const allPostsByDate = sortPostsByPublishDate(allPosts).slice(0, MAX_POSTS)
 ---
 
-<PageLayout meta={{ title: '欢迎光临' }} highlightColor='#659EB9'>
+<PageLayout meta={{ title: config.title }} highlightColor='#659EB9'>
   <main class='flex w-full flex-col items-center'>
     <section class='animate mb-10 flex flex-col items-center' id='content-header'>
       <Image
