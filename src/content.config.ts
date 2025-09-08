@@ -13,6 +13,7 @@ const posts = defineCollection({
       title: z.string().max(60),
       publishDate: z.coerce.date(),
       // Optional
+      subtitle: z.string().max(100).optional(),
       description: z.string().max(160).optional(),
       updatedDate: z.coerce.date().optional(),
       heroImage: z
@@ -48,6 +49,7 @@ const doit = defineCollection({
       title: z.string().max(60),
       publishDate: z.coerce.date(),
       // Optional
+      subtitle: z.string().max(100).optional(),
       description: z.string().max(160).optional(),
       updatedDate: z.coerce.date().optional(),
       heroImage: z

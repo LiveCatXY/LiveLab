@@ -1,6 +1,6 @@
 ---
 title: IT思考
-description: 一些关于 IT 的思考🤔
+subtitle: 一些关于 IT 的思考🤔
 publishDate: 2025-04-11
 updatedDate: 2025-05-09
 originDate: 2021-03-20

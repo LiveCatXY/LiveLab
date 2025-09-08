@@ -1,6 +1,6 @@
 ---
 title: 🤖生机系统LiveSystem
-description: 系统化的数据流架构
+subtitle: 系统化的数据流架构
 publishDate: 2025-08-17
 tags: [💻IT]
 level: 3
