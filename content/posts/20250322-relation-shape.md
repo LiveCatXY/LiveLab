@@ -2,7 +2,7 @@
 title: 💡缘形：将关系可视化
 subTitle: 利用数据分析和可视化发掘关系，预防风险
 publishDate: 2025-03-22
-tags: [📈图形]
+tags: [📈图形, 🪢缘]
 level: 2
 top: 2
 ---
