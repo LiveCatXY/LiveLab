@@ -12,10 +12,11 @@ top: 3
 
 复杂程序可以分成两部分：
 
-1. 抽象编程表达逻辑：包括逻辑、值、计算、函数式编程等。业务编程要充分语义化，变成逻辑，以提高安全与灵活。
-2. 具体编程实现控制：包括控制、资源、操作、命令式。系统编程要更注重控制，以提高安全与性能。
+1. 抽象编程表达逻辑：包括逻辑、做什么、值、计算、函数式编程等。业务编程要充分语义化，变成逻辑，以提高安全与灵活。
+2. 具体编程实现控制：包括控制、怎么做、资源、操作、命令式。系统编程要更注重控制，以提高安全与性能。
 
 参考：
 
 1. [左耳朵耗子：编程的本质是什么？](https://mp.weixin.qq.com/s/3WKImtdg_rEd_R9eCjs6WA)
 2. [程序的本质复杂性和元语言抽象](https://www.cnblogs.com/weidagang2046/p/the-nature-of-meta.html)，[酷壳转载讨论](https://coolshell.cn/articles/10652.html)
+3. [【DeepSeek】抽象与具体编程的分层设计](https://chat.deepseek.com/share/laehvgcz7x21q9t5lb)
