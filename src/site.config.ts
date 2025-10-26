@@ -49,7 +49,6 @@ export const theme: ThemeUserConfig = {
     menu: [
       { title: '🏷️标签', link: '/tags' },
       { title: '📑帖子', link: '/posts' },
-      { title: '🔨干它', link: '/doit' },
       { title: '🐈关于', link: '/about' }
     ]
   },
