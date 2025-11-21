@@ -63,10 +63,14 @@ export const theme: ThemeUserConfig = {
   },
 
   content: {
-    externalLinksContent: '↗',
+    externalLinks: {
+      content: '↗',
+      properties: {
+        style: 'user-select:none'
+      }
+    },
     /** Blog page size for pagination (optional) */
     blogPageSize: 10,
-    externalLinkArrow: true, // show external link arrow
     // Currently support weibo, x, bluesky
     share: ['weibo', 'x', 'bluesky']
   }
