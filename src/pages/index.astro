@@ -15,7 +15,7 @@ const languages = ['Rust', 'JavaScript/TypeScript', 'Html', 'CSS', 'Shell']
 const frontend = ['Web3D', 'Vue', 'React', 'Astro']
 const backend = ['NodeJS', 'C++']
 
-const MAX_POSTS = 5
+const MAX_POSTS = 10
 const allPosts = await getBlogCollection('posts')
 const topPosts = sortPostsByTop(allPosts)
   .filter((p) => p.data.top >= 3)
