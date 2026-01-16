@@ -13,13 +13,13 @@ MVC 架构及其衍生架构如 MVP、MVVM，主要是用来解耦 Model 和 Vie
 
 一个主要的解耦理由是 Model 和 View 分别对应数据逻辑（如存储、分析、传输等）和显示逻辑，可以独立对数据逻辑和显示逻辑进行开发、测试、维护等。
 
-参考：[MVC（Model-View-Controller）架构详解](/posts/20250817c-mvc)、[MVP（Model-View-Presenter）架构详解](/posts/20250817d-mvp)、[MVVM（Model-View-ViewModel）架构详解](/posts/20250817e-mvvm)。
+参考：[MVC（Model-View-Controller）架构详解](/blog/20250817c-ai-mvc.mdx)、[MVP（Model-View-Presenter）架构详解](/blog/20250817d-ai-mvp.mdx)、[MVVM（Model-View-ViewModel）架构详解](/blog/20250817e-ai-mvvm.mdx)。
 
 ## 二、ECS 架构
 
 对于更复杂的程序，比如游戏，MVC 架构解耦数据逻辑和显示逻辑还不够，还得解耦各种复杂的游戏逻辑，并且保持高效率和清晰灵活易维护。
 
-参考：[ECS架构(Entity-Component-System)](/posts/20250817b-ecs)。
+参考：[ECS架构(Entity-Component-System)](/blog/20250817b-ai-ecs.mdx)。
 
 ## 三、数据流
 
