@@ -96,6 +96,17 @@ export default defineContentConfig({
         author: createAuthorSchema()
       })
     }),
+    archive: defineCollection({
+      type: 'page',
+      source: 'archive/*.md',
+      schema: z.object({
+        minRead: z.number(),
+        date: z.date(),
+        updatedDate: z.date(),
+        image: z.string().nonempty().editor({ input: 'media' }),
+        author: createAuthorSchema()
+      })
+    }),
     pages: defineCollection({
       type: 'page',
       source: [

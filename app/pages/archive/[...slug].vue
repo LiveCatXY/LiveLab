@@ -6,24 +6,24 @@ import { findPageBreadcrumb } from '@nuxt/content/utils'
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () =>
-  queryCollection('blog').path(route.path).first()
+  queryCollection('archive').path(route.path).first()
 )
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
-  queryCollectionItemSurroundings('blog', route.path, {
+  queryCollectionItemSurroundings('archive', route.path, {
     fields: ['description']
   })
 )
 
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
-const blogNavigation = computed(() => navigation.value.find(item => item.path === '/blog')?.children || [])
+const archiveNavigation = computed(() => navigation.value.find(item => item.path === '/archive')?.children || [])
 
-const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value?.path)).map(({ icon, ...link }) => link))
+const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(archiveNavigation?.value, page.value?.path)).map(({ icon, ...link }) => link))
 
 if (page.value.image) {
   defineOgImage({ url: page.value.image })
 } else {
-  defineOgImageComponent('Blog', {
+  defineOgImageComponent('Archive', {
     headline: breadcrumb.value.map(item => item.label).join(' > ')
   }, {
     fonts: ['Geist:400', 'Geist:600']
@@ -56,11 +56,11 @@ const formatDate = (dateString: string) => {
     <UContainer class="relative min-h-screen">
       <UPage v-if="page">
         <ULink
-          to="/blog"
+          to="/archive"
           class="text-sm flex items-center gap-1"
         >
           <UIcon name="lucide:chevron-left" />
-          Blog
+          Archive
         </ULink>
         <div class="flex flex-col gap-3 mt-8">
           <div class="flex text-xs text-muted items-center justify-center gap-2">
@@ -75,7 +75,6 @@ const formatDate = (dateString: string) => {
             </span>
           </div>
           <NuxtImg
-            v-if="page.image"
             :src="page.image"
             :alt="page.title"
             class="rounded-lg w-full h-[300px] object-cover object-center"
